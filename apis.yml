@@ -1,25 +1,53 @@
 aid: movivo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/movivo.png
 name: Movivo
-description: Movivo is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Movivo was a London-based mobile rewards startup (500 Startups / Distro
+  Dojo, HQ London) whose consumer app let users cover the cost of their mobile airtime
+  and data by completing surveys, crowdsourced micro-tasks, and app installs, working
+  with mobile operators across emerging markets. The company was surfaced as a portfolio
+  lead of 500 Global and added to the API Evangelist network as a stub. As of this
+  enrichment pass the company appears defunct — movivo.com resolves to a parked
+  GoDaddy for-sale domain, and no public developer portal, API reference, OpenAPI
+  definition, SDK, or GitHub organization could be found. This profile is retained
+  as a network record with no API surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/movivo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
+x-status: defunct
 x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Mobile
+- Airtime
+- Rewards
+- Telecommunications
+- Emerging Markets
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-common:
-- type: Website
-  url: https://newpath.com
+common: []
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
